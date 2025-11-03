@@ -30,7 +30,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.sixamtech.stack_food_delivery"
+    namespace "com.dhahar.driver"
     compileSdkVersion 36
 
     compileOptions {
