@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1063100312311",
+    "firebase_url": "https://dhahar-id-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dhahar-id",
+    "storage_bucket": "dhahar-id.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063100312311:android:26a5d07ba79c159406c1f2",
+        "android_client_info": {
+          "package_name": "com.dhahar.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRn5u80RIvGmAxuejfHVaJBRlRjsi_kvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063100312311-5d22mlr8q0dvq9bkoing12h6foqb2kj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063100312311:android:d3c33e42601be1dd06c1f2",
+        "android_client_info": {
+          "package_name": "com.dhahar.id"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRn5u80RIvGmAxuejfHVaJBRlRjsi_kvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063100312311-5d22mlr8q0dvq9bkoing12h6foqb2kj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
