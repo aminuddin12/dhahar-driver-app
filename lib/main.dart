@@ -29,6 +29,7 @@ Future<void> main() async {
   Map<String, Map<String, String>> languages = await di.init();
 
   if(GetPlatform.isAndroid) {
+    if (Firebase.apps.isEmpty) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
         apiKey: "AIzaSyB4yq-rdrZPjf6-2YhL0tsP53gkP0rD6Gw",
@@ -41,6 +42,7 @@ Future<void> main() async {
         measurementId: "G-1M4JERDWCG"
       ),
     );
+    }
   } else {
     await Firebase.initializeApp();
   }
