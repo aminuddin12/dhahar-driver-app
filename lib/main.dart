@@ -26,26 +26,8 @@ Future<void> main() async {
   }
   setPathUrlStrategy();
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   Map<String, Map<String, String>> languages = await di.init();
-
-  if(GetPlatform.isAndroid) {
-    if (Firebase.apps.isEmpty) {
-    await Firebase.initializeApp(
-      options: const FirebaseOptions(
-        apiKey: "AIzaSyB4yq-rdrZPjf6-2YhL0tsP53gkP0rD6Gw",
-        authDomain: "dhahar-id.firebaseapp.com",
-        databaseURL: "https://dhahar-id-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "dhahar-id",
-        storageBucket: "dhahar-id.firebasestorage.app",
-        messagingSenderId: "1063100312311",
-        appId: "1:1063100312311:android:26a5d07ba79c159406c1f2",
-        measurementId: "G-1M4JERDWCG"
-      ),
-    );
-    }
-  } else {
-    await Firebase.initializeApp();
-  }
 
   NotificationBodyModel? body;
   try {

@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1063100312311:android:26a5d07ba79c159406c1f2",
+        "mobilesdk_app_id": "1:1063100312311:android:6ae2c867cd55a97306c1f2",
         "android_client_info": {
-          "package_name": "com.dhahar.driver"
+          "package_name": "com.dhahar.customer"
         }
       },
       "oauth_client": [],
@@ -32,9 +32,42 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1063100312311:android:d3c33e42601be1dd06c1f2",
+        "mobilesdk_app_id": "1:1063100312311:android:26a5d07ba79c159406c1f2",
         "android_client_info": {
-          "package_name": "com.dhahar.id"
+          "package_name": "com.dhahar.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063100312311-3rg8p17nmluaoh8b4va4ct687ublrt3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhahar.driver",
+            "certificate_hash": "fb4ccfd5039c4d01ef7a0a9e1ba3e75eb73a40c5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRn5u80RIvGmAxuejfHVaJBRlRjsi_kvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063100312311-5d22mlr8q0dvq9bkoing12h6foqb2kj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063100312311:android:ae7755a16b84e2fb06c1f2",
+        "android_client_info": {
+          "package_name": "com.dhahar.restaurant"
         }
       },
       "oauth_client": [],
